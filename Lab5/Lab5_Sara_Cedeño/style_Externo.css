@@ -1,0 +1,28 @@
+body {
+    background-image: url("img/beach\ color\ background.jpg");
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cv {
+    background-position: center;
+    background-color: #ECB365;
+    text-align: center;
+    font-size: 220%;
+    font-style: oblique;
+}
+
+.imagen {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.datitos {
+    background-color: #270082;
+    width: 20%;
+    color: white;
+    text-align: center;
+}
