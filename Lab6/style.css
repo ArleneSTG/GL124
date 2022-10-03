@@ -17,7 +17,7 @@ header{
     background-color: #52006B;
 }
 
-h1{
+.titulo{
     text-align: center;
     color: white;
     font-weight: bold;
@@ -128,7 +128,7 @@ h2{
     background-color:  #52006B;
     width: 100%;
     max-width: 1200px;
-    height: 550px;
+    height: 650px;
     margin: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
 }
@@ -196,12 +196,47 @@ footer{
 }
 
 .grupo-2 small{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
 
 .sbn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
     text-align: center;
     color:#000000
 }
 
+.foto{
+    opacity: 0.7;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url("img/lavanda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.foto p{
+    font-family:'Courier New', Courier, monospace;
+    background-color: white;
+    text-align: center;
+    text-transform: none;
+    font-size: 110%;
+    z-index: 999%;
+    font-weight: bolder;
+}
+
+.font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 350%;
+    font-weight: bold;
+    color: #ffffff;
+    z-index: 999;
+    text-shadow: 2px 2px 5px #081e9b;
+}
+
+.font p{
+    z-index: 999;
+}
